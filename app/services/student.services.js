@@ -39,10 +39,10 @@ const getDetail = (id) => {
 
 const create = (student) => {
   const newStudent = {
-    id: Math.random(),
+    id: Math.random().toString(),
     ...student,
   };
-  studentList = [...studentList, student];
+  studentList = [...studentList, newStudent];
   return newStudent;
 };
 
