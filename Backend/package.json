@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "init": "^0.1.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^7.0.0-alpha.2"
+  },
+  "name": "expressjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/server.js",
+    "dev": "nodemon app/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
